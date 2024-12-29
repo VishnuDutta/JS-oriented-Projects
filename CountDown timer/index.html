@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">CountDown timer</h1>
+      <div class="main_content">
+        <div class="inputting_field">
+          <form action="">
+            <div class="set_Hours">
+            <label for="input_Hours">Set Hours (HH)</label
+            ><input
+              type="range"
+              id="input_Hours"
+              class="input"
+              min="0"
+              max="12"
+              value="0"
+            />
+            <span id="hours_Span"></span> <br />
+          </div>
+          <div class="input_min">
+            <label for="input_Min">Set Minutes (MM)</label
+            ><input
+              type="range"
+              id="input_Min"
+              class="input"
+              min="0"
+              max="60"
+              value="10"
+            />
+            <span id="Min_Span"></span> <br />
+          </div>
+          <div class="input_sec">
+            <label for="input_Sec">Set Sec (SS)</label
+            ><input
+              type="range"
+              id="input_Sec"
+              class="input"
+              min="0"
+              max="60"
+              value="0"
+            />
+            <span id="sec_Span"></span>
+          </div>
+          </form>
+          <button id="btn_To_Set">Set The timer</button>
+        </div>
+        <div class="showing_field">
+            <div class="timer">
+                <div class="hours_Display">HH</div>
+                <span>:</span>
+                <div class="Minutes_Display">MM</div>
+                <span>:</span>
+                <div class="Seconds_Display">SS</div>
+            </div>
+
+            <div class="buttons_toinp">
+                <div class="start_btn">
+                    <button id="start_Timer">Start</button>
+                </div>
+                <div class="pause_btn">
+                    <button id="pause_Timer" >Pause/Start</button>
+                </div>
+                <div class="reset_btn">
+                    <button id="reset_Timer" >Reset</button>
+                </div>
+            </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

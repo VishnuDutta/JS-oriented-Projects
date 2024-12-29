@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #9eb4a5;
+    height: 10vh;
+    font-size: 8vh;
+    align-items: center;
+    font-weight: 600;
+}
+
+.calc_back{
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrapper{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.item button{
+    font-size: 30px;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 10px;
+}

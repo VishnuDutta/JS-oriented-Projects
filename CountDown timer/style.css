@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    max-width: 1990px;
+    justify-content: center;
+    text-align: center;
+}
+.heading{
+    font-size: 6vh;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.set_Hours{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.input_min{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.input_sec{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#btn_To_Set{
+    border: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-size: 600;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+}
+
+.buttons_toinp{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_toinp button{
+    padding: 10px 20px;
+}
+
+.showing_field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

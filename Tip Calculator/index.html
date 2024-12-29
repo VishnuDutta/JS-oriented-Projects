@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Tip Calculator</h1>
+      <div class="displayArea">
+        <label for="tipamount">Tip Amount(Rs)</label><input type="text" disabled id="tipamount"/>
+        <label for="totalAmount">Total Amount(Rs)</label><input type="text" disabled id="totalAmount"/>
+      </div>
+      <div class="inputarea">
+        <label for="billamount">Total Bill Amount(Rs)</label
+        ><input type="number" min="1" value="10" id="billamount" />
+        <label for="tippercentage">Tip %</label
+        ><input type="number" min="1" value="5" id="tippercentage" />
+        <button type="submit" id="submit">Calculate</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

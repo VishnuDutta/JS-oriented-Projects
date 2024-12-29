@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="displaySection">
+        <input
+          type="text"
+          placeholder="Password will be here"
+          disabled
+          id="displayPassword"
+        />
+      </div>
+      <div class="inputSection">
+        <input type="checkbox" name="characterType" id="upperCase" /><label
+          for="upperCase"
+          id="upperCaseLabel"
+          >UpperCase</label
+        >
+        <input type="checkbox" name="characterType" id="lowerCase" /><label
+          for="lowerCase"
+          id="lowerCaseLabel"
+          >LowerCase</label
+        >
+        <input type="checkbox" name="characterType" id="numbers" /><label
+          for="numbers"
+          id="numbersLabel"
+          >Numbers</label
+        >
+        <input type="checkbox" name="characterType" id="specialCharac" /><label
+          for="specialCharac"
+          id="specialCharacLabel"
+          >SpecialCharacters</label
+        >
+      </div>
+      <div class="passwordLength">
+        <label for="passwordLength" id="passwordLengthLabel"
+          >PasswordLength</label
+        >
+        <input
+          type="range"
+          name="passwordLength"
+          id="passwordLength"
+          min="5"
+          max="15"
+          value="5"
+        />
+        <p id="passLengthDisplay">5</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
